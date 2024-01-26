@@ -66,6 +66,15 @@
         padding: 0.6rem 0;
         font-size: 20px;
     }
+    @media (max-width: 768px) {
+            /* Adjust layout for screens with a width of 768px or less (typical for mobile devices) */
+            .timer {
+                flex-direction: column; /* Display timers vertically */
+            }
+            .sub_timer {
+                width: 100%; /* Take full width on mobile */
+            }
+        }
     </style>
 </head>
 <body>
